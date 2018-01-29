@@ -33,6 +33,7 @@ filename3 = "RESULTS/OUTPUT-" + domain1 + "-RESULTS.csv"
 print "\n" + "Anomalous Cookie v1.0a - RUNNING!" + "\n"
 print "---------------------------------------------------" + "\n"
 
+'''
 profile = webdriver.FirefoxProfile()
 profile.set_preference("network.proxy.type", 1)
 profile.set_preference("network.proxy.http", 'localhost')
@@ -40,8 +41,9 @@ profile.set_preference("network.proxy.http_port", 8080)
 profile.set_preference("network.proxy.ssl", 'localhost')
 profile.set_preference("network.proxy.ssl_port", 8080)
 browser = webdriver.Firefox(firefox_profile=profile)
+'''
 
-#browser = webdriver.Firefox()
+browser = webdriver.Firefox()
 #browser.set_page_load_timeout(10)
 browser.get(url)
 
@@ -98,6 +100,7 @@ for FUZZY in all_fuzzy:
         except:
             print "\n" + " POSSIBLE XSS OR JAVASCRIPT CODE EXECUTION!" + "\n"
             total_cookies3 = " FUZZED! "
+            '''
             profile = webdriver.FirefoxProfile()
             profile.set_preference("network.proxy.type", 1)
             profile.set_preference("network.proxy.http", 'localhost')
@@ -105,6 +108,8 @@ for FUZZY in all_fuzzy:
             profile.set_preference("network.proxy.ssl", 'localhost')
             profile.set_preference("network.proxy.ssl_port", 8080)
             browser = webdriver.Firefox(firefox_profile=profile)
+            '''
+            browser = webdriver.Firefox() 
             time.sleep(1)
             pass
         print "TOTAL COOKIES IN JAR: " + "[" + total_cookies3 + "]" + "\n"

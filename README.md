@@ -45,10 +45,10 @@ Usage:<BR>
 ./AnomalousCookie-v1.py -2 "https://www.example.com" output // Overwrite existing cookie payload data.<BR>
 ./AnomalousCookie-v1.py -3 "https://www.example.com" output // Append fuzz data after existing cookie payload data.<BR>
 
-Screenshots will be in the 'output' directory. Enjoy!<BR>
 <BR>
 Enable proxy by modifying the setting below:<BR>
 proxy = "yes"<BR><BR>
+Screenshots will be saved in the 'output' directory. Enjoy!<BR><BR>
 
 -theLostRabbit
 <BR><BR>

@@ -27,12 +27,12 @@ inputfile.close()
 ##### Functions/Methods! #####
 def helpme():
     print 'EXAMPLE COMMAND:'
-    print 'Usage: ./AnomalousCookie.py -1 "https://www.example.com" labelname ' + "\n"
+    print 'Usage: ./AnomalousCookie-v1.py -1 "https://www.example.com" output ' + "\n"
     print 'ALL POSSIBLE PARAMETERS (1 parameter is required):'
-    print 'Usage: ./AnomalousCookie.py -h ' + " :::: " + " HELP!"
-    print '       ./AnomalousCookie.py -1 "https://www.example.com" labelname' + " :::: " + " Append fuzz data before existing cookie payload data."
-    print '       ./AnomalousCookie.py -2 "https://www.example.com" labelname' + " :::: " + " Overwrite existing cookie payload data."
-    print '       ./AnomalousCookie.py -3 "https://www.example.com" labelname' + " :::: " + " Append fuzz data after existing cookie payload data." + "\n"
+    print 'Usage: ./AnomalousCookie-v1.py -h ' + " :::: " + " HELP!"
+    print '       ./AnomalousCookie-v1.py -1 "https://www.example.com" output' + " :::: " + " Append fuzz data before existing cookie payload data."
+    print '       ./AnomalousCookie-v1.py -2 "https://www.example.com" output' + " :::: " + " Overwrite existing cookie payload data."
+    print '       ./AnomalousCookie-v1.py -3 "https://www.example.com" output' + " :::: " + " Append fuzz data after existing cookie payload data." + "\n"
     sys.exit()
 
 

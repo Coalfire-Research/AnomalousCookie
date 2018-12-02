@@ -40,16 +40,16 @@ HOW TO USE:<BR>
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-<BR>
 
 Usage:<BR>
-./AnomalousCookie-v1.py -h  // HELP!!
-./AnomalousCookie-v1.py -1 "https://www.example.com" output // Append fuzz data before existing cookie payload data.
-./AnomalousCookie-v1.py -2 "https://www.example.com" output // Overwrite existing cookie payload data.
-./AnomalousCookie-v1.py -3 "https://www.example.com" output // Append fuzz data after existing cookie payload data.
+./AnomalousCookie-v1.py -h  // HELP!!<BR>
+./AnomalousCookie-v1.py -1 "https://www.example.com" output // Append fuzz data before existing cookie payload data.<BR><BR>
+./AnomalousCookie-v1.py -2 "https://www.example.com" output // Overwrite existing cookie payload data.<BR><BR>
+./AnomalousCookie-v1.py -3 "https://www.example.com" output // Append fuzz data after existing cookie payload data.<BR><BR>
 
 
-<BR><BR>
 Output images will be in the 'output' directory. Enjoy!<BR>
 <BR><BR>
-Enable proxy 
+Enable proxy by modifying the setting below:<BR>
+proxy = "yes"<BR><BR>
 
 -theLostRabbit
 <BR><BR>

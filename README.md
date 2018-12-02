@@ -1,5 +1,9 @@
 # AnomalousCookie.py
-AnomalousCookie v.01a<BR>
+<BR><BR>
++-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+<BR>
+|A|n|o|m|a|l|o|u|s| |C|o|o|k|i|e|<BR>
++-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+<BR>
+AnomalousCookie v1.0<BR><BR>
 Auto fuzz cookies to detect weaknesses (leading to additional vulnerabilities) and create screenshots.
 <BR><BR>
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-<BR>
@@ -13,18 +17,15 @@ apt-get install python-pip
 pip install --upgrade pip
 
 3. Install needed Python libs:<BR>
-pip install requests<BR>
 pip install selenium<BR>
 
-4. Install Geckodriver! & BROWSER!<BR>
+4. Install Geckodriver!<BR>
 wget https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz<BR>
 
-tar zxvf geckodriver-v0.18.0-linux64.tar.gz<BR>
-chmod 655 geckodriver<BR>
-cp geckodriver /usr/bin/geckdriver<BR>
+- tar zxvf geckodriver-v0.18.0-linux64.tar.gz<BR>
+- chmod 655 geckodriver<BR>
+- cp geckodriver /usr/bin/geckodriver<BR>
 
-apt-get install iceweasel<BR>
-** can now use apt-get install firefox<BR>
 <BR>
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-<BR>
 INSTALLING:<br>
@@ -33,15 +34,22 @@ INSTALLING:<br>
 GIT CLONE the 'AnomalousCookie' script/framework:<BR>
 git clone https://github.com/LostRabbitLabs/AnomalousCookie<BR>
 
-<BR><BR>
+<BR>
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-<BR>
 HOW TO USE:<BR>
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-<BR>
 
 Usage:<BR>
-<I>./AnomalousCookie.py "https://www.example.com/dir/path/file" example.com</I>
+./AnomalousCookie-v1.py -h  // HELP!!
+./AnomalousCookie-v1.py -1 "https://www.example.com" output // Append fuzz data before existing cookie payload data.
+./AnomalousCookie-v1.py -2 "https://www.example.com" output // Overwrite existing cookie payload data.
+./AnomalousCookie-v1.py -3 "https://www.example.com" output // Append fuzz data after existing cookie payload data.
+
+
 <BR><BR>
-Output images will be in the 'RESULTS' directory. Enjoy!<BR>
+Output images will be in the 'output' directory. Enjoy!<BR>
+<BR><BR>
+Enable proxy 
 
 -theLostRabbit
 <BR><BR>

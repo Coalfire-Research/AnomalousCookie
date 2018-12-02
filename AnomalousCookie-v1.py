@@ -75,7 +75,7 @@ except:
 
 ##### Fire up all engines and fuzz the cookies! #####
 print "-------------------------------------------------------------"
-print "\n" + ":::: |A|n|o|m|a|l|o|u|s| |C|o|o|k|i|e| v0.1c - RUNNING! ::::" + "\n"
+print "\n" + ":::: |A|n|o|m|a|l|o|u|s| |C|o|o|k|i|e| v1.0 - RUNNING!! ::::" + "\n"
 print "-------------------------------------------------------------" + "\n"
 
 ##### If proxy set to 'yes' then forward browser requests to proxy service (ie: BURP/TOR)! #####

@@ -1,9 +1,7 @@
 # AnomalousCookie.py
-<BR>
 +-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+<BR>
-|A|n|o|m|a|l|o|u|s| |C|o|o|k|i|e|<BR>
+|A|n|o|m|a|l|o|u|s| |C|o|o|k|i|e| - v1.0<BR>
 +-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+<BR>
-AnomalousCookie v1.0<BR><BR>
 Auto fuzz cookies to detect weaknesses (leading to additional vulnerabilities) and create screenshots.
 <BR><BR>
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-<BR>
